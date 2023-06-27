@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    background-image: url(imagens/backgroud.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+   height: 21px;
+}
+
+.imgh {
+    width: 30px;
+}
+
+.menu {
+    padding: 0;
+    text-align: left;
+    background-color: rgb(15, 76, 207);   
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-family:'Crete Round', serif;
+}
+
+.menu a {
+    background-color: rgb(236, 225, 225);
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu a:hover {
+    background-color: #1486ffa2;
+    color: white;
+}
+
+.menu.flex {
+   display: flex;
+   justify-content: center;
+}
+
+h2 {
+  color: rgba(46, 46, 46, 0.932);
+  padding-block: 10px;
+  font-family:'Crete Round', serif;
+}
+h1 {
+   color: white;
+   text-align: center;
+   font-family: 'Crete Round', serif;
+   font-style: italic;
+}
+
+p {
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+main {
+    background-color: rgb(240, 234, 234);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
+}
+
+ol {
+    padding: 15px;
+   
+}
+
+ul {
+    padding: 15px;
+}
+.dados {
+   padding: 15px;
+   padding-left: 20px;
+}
+
+.espaco {
+    padding-left: 80px;
+}
+.acolhimento {
+    display: inline-table;
+    padding: 20px;
+}
+
+.imdhp {
+    padding-bottom: 40px;
+}
+
+.pimdh {
+    padding-top: 20px;
+}
